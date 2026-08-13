@@ -17,6 +17,7 @@ Required inputs (env vars set by the workflow from workflow_dispatch inputs):
   VIDEO_URL, CAPTION
 """
 
+import json
 import os
 import sys
 import time
@@ -24,6 +25,7 @@ import time
 import requests
 
 GRAPH_API = "https://graph.facebook.com/v21.0"
+POSTED_LOG_PATH = os.path.join(os.path.dirname(__file__), "..", "content", "posted_log.json")
 
 IG_ACCESS_TOKEN = os.environ.get("IG_ACCESS_TOKEN")
 IG_USER_ID = os.environ.get("IG_USER_ID")
@@ -31,6 +33,25 @@ FB_PAGE_ID = os.environ.get("FB_PAGE_ID")
 FB_PAGE_TOKEN = os.environ.get("FB_PAGE_TOKEN")
 VIDEO_URL = os.environ.get("VIDEO_URL")
 CAPTION = os.environ.get("CAPTION")
+
+
+def log_post(instagram_id, facebook_id):
+    entries = []
+    if os.path.exists(POSTED_LOG_PATH):
+        with open(POSTED_LOG_PATH) as f:
+            entries = json.load(f)
+    entries.append({
+        "type": "video",
+        "thumbnail_url": VIDEO_URL,
+        "caption": CAPTION,
+        "instagram_id": instagram_id,
+        "facebook_id": facebook_id,
+        "instagram_pending_creation_id": None,
+        "posted_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "source": "manual_video",
+    })
+    with open(POSTED_LOG_PATH, "w") as f:
+        json.dump(entries, f, indent=2)
 
 
 def publish_facebook_video(video_url, caption):
@@ -87,6 +108,8 @@ def main():
     print(f"Caption: {CAPTION}\n")
 
     errors = []
+    fb_id = None
+    ig_id = None
 
     try:
         fb_id = publish_facebook_video(VIDEO_URL, CAPTION)
@@ -101,6 +124,9 @@ def main():
     except Exception as e:
         errors.append(f"instagram: {e}")
         print(f"Instagram FAILED: {e}", file=sys.stderr)
+
+    if fb_id or ig_id:
+        log_post(ig_id, fb_id)
 
     if errors:
         print("\nOne or more platforms failed: " + "; ".join(errors), file=sys.stderr)

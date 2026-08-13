@@ -24,6 +24,7 @@ import requests
 
 GRAPH_API = "https://graph.facebook.com/v21.0"
 PENDING_PATH = os.path.join(os.path.dirname(__file__), "..", "content", "pending_videos.json")
+POSTED_LOG_PATH = os.path.join(os.path.dirname(__file__), "..", "content", "posted_log.json")
 
 IG_ACCESS_TOKEN = os.environ.get("IG_ACCESS_TOKEN")
 IG_USER_ID = os.environ.get("IG_USER_ID")
@@ -38,6 +39,26 @@ def load_pending():
 def save_pending(items):
     with open(PENDING_PATH, "w") as f:
         json.dump(items, f, indent=2)
+
+
+def resolve_posted_log(creation_id, media_id):
+    """Fills in the real Instagram media ID on the posted_log.json entry
+    that poster.py created (with instagram_id still null) when it first
+    started this video's processing -- so the console/Telegram history view
+    picks up a working post link and can fetch engagement for it."""
+    if not os.path.exists(POSTED_LOG_PATH):
+        return
+    with open(POSTED_LOG_PATH) as f:
+        entries = json.load(f)
+    changed = False
+    for entry in entries:
+        if entry.get("instagram_pending_creation_id") == creation_id:
+            entry["instagram_id"] = media_id
+            entry["instagram_pending_creation_id"] = None
+            changed = True
+    if changed:
+        with open(POSTED_LOG_PATH, "w") as f:
+            json.dump(entries, f, indent=2)
 
 
 def check_status(creation_id):
@@ -87,6 +108,7 @@ def main():
             try:
                 media_id = publish(creation_id)
                 print(f"[{creation_id}] published: {media_id}")
+                resolve_posted_log(creation_id, media_id)
                 notify(item["chat_id"], f"📸 Your Instagram video is live!\n\n{item.get('caption', '')}")
             except Exception as e:
                 print(f"[{creation_id}] publish FAILED: {e}", file=sys.stderr)

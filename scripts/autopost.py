@@ -171,6 +171,7 @@ def main():
             try:
                 ig_id = publish_instagram(post)
                 print(f"[{label}] Instagram published: {ig_id}")
+                post["instagram_id"] = ig_id
             except Exception as e:
                 errors.append(f"instagram: {e}")
                 print(f"[{label}] Instagram FAILED: {e}", file=sys.stderr)
@@ -179,6 +180,7 @@ def main():
             try:
                 fb_id = publish_facebook(post)
                 print(f"[{label}] Facebook published: {fb_id}")
+                post["facebook_id"] = fb_id
             except Exception as e:
                 errors.append(f"facebook: {e}")
                 print(f"[{label}] Facebook FAILED: {e}", file=sys.stderr)

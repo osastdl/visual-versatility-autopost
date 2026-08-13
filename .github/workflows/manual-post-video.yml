@@ -11,7 +11,7 @@ on:
         required: true
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   post-video:
@@ -34,3 +34,12 @@ jobs:
           VIDEO_URL: ${{ github.event.inputs.video_url }}
           CAPTION: ${{ github.event.inputs.caption }}
         run: python scripts/manual_post_video.py
+
+      - name: Commit updated posted log
+        if: always()
+        run: |
+          git config user.name "autopost-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/posted_log.json
+          git diff --staged --quiet || git commit -m "Log manual video post [skip ci]"
+          git push

@@ -34,6 +34,6 @@ jobs:
         run: |
           git config user.name "autopost-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add content/pending_videos.json
+          git add content/pending_videos.json content/posted_log.json
           git diff --staged --quiet || git commit -m "Update pending video publishes [skip ci]"
           git push
