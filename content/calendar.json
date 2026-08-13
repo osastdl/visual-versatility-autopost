@@ -241,5 +241,49 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day6-post3-a.png"
     ],
     "posted": false
+  },
+  {
+    "id": "content-video-1-website",
+    "type": "video",
+    "scheduled_at": "2026-08-13T22:00:00Z",
+    "platforms": ["instagram", "facebook"],
+    "caption": "Picture this: a customer finds your business online... and leaves in ten seconds. 😬\n\nAn outdated website (or no website at all) is costing you real customers every single day. We build sites that actually convert — not just look nice.\n\nReady to stop losing customers to a bad first impression? Link in bio. 👇\n\n#VisualVersatility #WebsiteDesign #SmallBusinessTips #BrandingMatters #DesignAgency #WebDesigner #SouthAfricanBusiness #BrandIdentity",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-website.mp4"
+    ],
+    "posted": false
+  },
+  {
+    "id": "content-video-2-inbox",
+    "type": "video",
+    "scheduled_at": "2026-08-14T22:00:00Z",
+    "platforms": ["instagram", "facebook"],
+    "caption": "Somewhere in your messy inbox is a customer ready to pay you... waiting on a reply that never comes. 📲\n\nThe businesses that grow fastest aren't the busiest — they're the most organized. We help you build systems so nothing falls through the cracks.\n\n#VisualVersatility #SmallBusinessTips #CustomerExperience #Branding #DesignAgency #SouthAfricanBusiness #BusinessGrowth #ContentSystems",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-inbox.mp4"
+    ],
+    "posted": false
+  },
+  {
+    "id": "content-video-3-brand",
+    "type": "video",
+    "scheduled_at": "2026-08-15T22:00:00Z",
+    "platforms": ["instagram", "facebook"],
+    "caption": "Mismatched fonts. Clashing colors. A logo that looks different everywhere. 🎨\n\nIf your brand feels chaotic, your customers feel it too — and confusion doesn't convert. We turn the chaos into clarity: one look, one voice, one brand people remember.\n\n#VisualVersatility #Branding #BrandIdentity #DesignAgency #GraphicDesign #SmallBusinessBranding #SouthAfricanBusiness #BrandStrategy",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-brand.mp4"
+    ],
+    "posted": false
+  },
+  {
+    "id": "content-video-4-visibility",
+    "type": "video",
+    "scheduled_at": "2026-08-16T22:00:00Z",
+    "platforms": ["instagram", "facebook"],
+    "caption": "You can build the best business in the world — and if nobody can see it, it doesn't matter. 🔦\n\nBeing invisible online isn't humility, it's a missed opportunity every single day. Step into the light your business deserves.\n\n#VisualVersatility #BrandVisibility #SmallBusinessTips #DesignAgency #DigitalPresence #SouthAfricanBusiness #BrandStrategy #DesignWithIntention",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-visibility.mp4"
+    ],
+    "posted": false
   }
 ]

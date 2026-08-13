@@ -52,7 +52,60 @@ def due_posts(posts):
     return due
 
 
+def publish_instagram_video(post):
+    """Reels are two-speed on Instagram's end: create the container, then
+    poll until Meta finishes processing before publishing. Actions jobs can
+    run for hours, so -- unlike the outreach_app web request path, which
+    hands this off to finish_pending_videos.py -- this just waits inline."""
+    video_url = post["images"][0]
+    caption = post["caption"]
+
+    container = requests.post(
+        f"{GRAPH_API}/{IG_USER_ID}/media",
+        data={"media_type": "REELS", "video_url": video_url, "caption": caption, "access_token": IG_ACCESS_TOKEN},
+    ).json()
+    if "id" not in container:
+        raise RuntimeError(f"IG Reels container failed: {container}")
+    creation_id = container["id"]
+
+    for _ in range(60):  # up to ~10 min at 10s intervals
+        time.sleep(10)
+        status = requests.get(
+            f"{GRAPH_API}/{creation_id}",
+            params={"fields": "status_code", "access_token": IG_ACCESS_TOKEN},
+        ).json().get("status_code")
+        if status == "FINISHED":
+            break
+        if status == "ERROR":
+            raise RuntimeError(f"IG Reels processing failed for {creation_id}")
+    else:
+        raise RuntimeError(f"IG Reels processing timed out for {creation_id}")
+
+    publish = requests.post(
+        f"{GRAPH_API}/{IG_USER_ID}/media_publish",
+        data={"creation_id": creation_id, "access_token": IG_ACCESS_TOKEN},
+    ).json()
+    if "id" not in publish:
+        raise RuntimeError(f"IG Reels publish failed: {publish}")
+    return publish["id"]
+
+
+def publish_facebook_video(post):
+    video_url = post["images"][0]
+    caption = post["caption"]
+    resp = requests.post(
+        f"{GRAPH_API}/{FB_PAGE_ID}/videos",
+        data={"file_url": video_url, "description": caption, "access_token": FB_PAGE_TOKEN},
+    ).json()
+    if "id" not in resp:
+        raise RuntimeError(f"FB video post failed: {resp}")
+    return resp["id"]
+
+
 def publish_instagram(post):
+    if post.get("type") == "video":
+        return publish_instagram_video(post)
+
     images = post["images"]
     caption = post["caption"]
 
@@ -109,6 +162,9 @@ def publish_instagram(post):
 
 
 def publish_facebook(post):
+    if post.get("type") == "video":
+        return publish_facebook_video(post)
+
     images = post["images"]
     caption = post["caption"]
 
