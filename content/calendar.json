@@ -2,19 +2,26 @@
   {
     "id": "day1-post1",
     "scheduled_at": "2026-08-13T00:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "Your brand deserves more than a logo slapped on a template. 🎨\n\nAt Visual Versatility, we build the full package — websites, graphics, video content, all designed to actually convert. Ready to look as good online as you do in person?\n\nDM us or hit the link in bio to get started. 👆\n\n#GraphicDesign #WebsiteDesign #DigitalContent #SmallBusinessBranding #VideoEditing #Pretoria",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Your brand deserves more than a logo slapped on a template. \ud83c\udfa8\n\nAt Visual Versatility, we build the full package \u2014 websites, graphics, video content, all designed to actually convert. Ready to look as good online as you do in person?\n\nDM us or hit the link in bio to get started. \ud83d\udc46\n\n#GraphicDesign #WebsiteDesign #DigitalContent #SmallBusinessBranding #VideoEditing #Pretoria",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day1-post1-a.png",
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day1-post1-b.png"
     ],
-    "posted": false
+    "posted": false,
+    "last_error": "facebook: FB unpublished photo failed: {'error': {'message': '(#200) The permission(s) pages_manage_posts are not available. It could because either they are deprecated or need to be approved by App Review.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A8tZFvA9H-0FffkKoBVPn9v'}}"
   },
   {
     "id": "day1-post2",
     "scheduled_at": "2026-08-14T13:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "3 signs your website is costing you clients:\n1️⃣ Takes more than 3 seconds to load\n2️⃣ Not mobile-friendly\n3️⃣ No clear call-to-action\nSave this for later 📌\n\n#WebDesignTips #SmallBusinessTips #WebsiteBuilder",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "3 signs your website is costing you clients:\n1\ufe0f\u20e3 Takes more than 3 seconds to load\n2\ufe0f\u20e3 Not mobile-friendly\n3\ufe0f\u20e3 No clear call-to-action\nSave this for later \ud83d\udccc\n\n#WebDesignTips #SmallBusinessTips #WebsiteBuilder",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day1-post2-a.png"
     ],
@@ -23,8 +30,11 @@
   {
     "id": "day1-post3",
     "scheduled_at": "2026-08-14T18:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "What's one thing you want your brand to say about you? Tell us in the comments 👇\n\n#BrandIdentity #EngageWithUs #SmallBusinessCommunity",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "What's one thing you want your brand to say about you? Tell us in the comments \ud83d\udc47\n\n#BrandIdentity #EngageWithUs #SmallBusinessCommunity",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day1-post3-a.png"
     ],
@@ -33,8 +43,11 @@
   {
     "id": "day2-post1",
     "scheduled_at": "2026-08-15T08:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "Another day, another brand coming to life ✨ Swipe to see the transformation.\n\nThis is what happens when design meets strategy.\n\n#BeforeAndAfter #DesignProcess #CreativeAgency",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Another day, another brand coming to life \u2728 Swipe to see the transformation.\n\nThis is what happens when design meets strategy.\n\n#BeforeAndAfter #DesignProcess #CreativeAgency",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day2-post1-before.png",
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day2-post1-after.png"
@@ -44,8 +57,11 @@
   {
     "id": "day2-post2",
     "scheduled_at": "2026-08-15T13:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "Which logo style speaks to you more? 1 or 2? 👇 Comment below!\n\n#LogoDesign #BrandIdentity #DesignPoll",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Which logo style speaks to you more? 1 or 2? \ud83d\udc47 Comment below!\n\n#LogoDesign #BrandIdentity #DesignPoll",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day2-post2-a.png",
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day2-post2-b.png"
@@ -55,8 +71,11 @@
   {
     "id": "day2-post3",
     "scheduled_at": "2026-08-15T18:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "New reel dropping tomorrow 👀 Here's a sneak peek of our latest project.\n\n#ComingSoon #VideoEditing #ContentCreator",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "New reel dropping tomorrow \ud83d\udc40 Here's a sneak peek of our latest project.\n\n#ComingSoon #VideoEditing #ContentCreator",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day2-post3-a.png"
     ],
@@ -65,8 +84,11 @@
   {
     "id": "day3-post1",
     "scheduled_at": "2026-08-17T08:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "5 branding mistakes killing your credibility (swipe through) →\n\n#BrandingTips #SmallBusiness #DesignEducation",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "5 branding mistakes killing your credibility (swipe through) \u2192\n\n#BrandingTips #SmallBusiness #DesignEducation",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day3-post1-a.png",
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day3-post1-b.png"
@@ -76,8 +98,11 @@
   {
     "id": "day3-post2",
     "scheduled_at": "2026-08-17T13:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "\"Visual Versatility completely transformed how our brand shows up online.\" — Happy client 🙌\n\n#ClientLove #Testimonial #BrandingSuccess",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "\"Visual Versatility completely transformed how our brand shows up online.\" \u2014 Happy client \ud83d\ude4c\n\n#ClientLove #Testimonial #BrandingSuccess",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day3-post2-a.png"
     ],
@@ -86,8 +111,11 @@
   {
     "id": "day3-post3",
     "scheduled_at": "2026-08-17T18:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "Ready to give your brand the glow-up it deserves? Spots for next month are open — link in bio to book your consult. ✨\n\n#BookNow #BrandingAgency #WebsiteBuilder",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Ready to give your brand the glow-up it deserves? Spots for next month are open \u2014 link in bio to book your consult. \u2728\n\n#BookNow #BrandingAgency #WebsiteBuilder",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day3-post3-a.png"
     ],
@@ -96,8 +124,11 @@
   {
     "id": "day4-post1",
     "scheduled_at": "2026-08-18T08:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "Ever wondered what goes into building a brand from scratch? Here's our process 👇\n\n#DesignProcess #BehindTheScenes #Branding",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Ever wondered what goes into building a brand from scratch? Here's our process \ud83d\udc47\n\n#DesignProcess #BehindTheScenes #Branding",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day4-post1-a.png",
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day4-post1-b.png"
@@ -107,8 +138,11 @@
   {
     "id": "day4-post2",
     "scheduled_at": "2026-08-18T13:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "When the client says \"make it pop\" 😅 We've all been there.\n\n#DesignerHumor #Relatable #CreativeLife",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "When the client says \"make it pop\" \ud83d\ude05 We've all been there.\n\n#DesignerHumor #Relatable #CreativeLife",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day4-post2-a.png"
     ],
@@ -117,8 +151,11 @@
   {
     "id": "day4-post3",
     "scheduled_at": "2026-08-18T18:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "Meet the person behind the pixels 👋 I started Visual Versatility because I was tired of seeing small businesses settle for \"good enough\" design. Let's build something you're proud to show off.\n\n#MeetTheFounder #SmallBusinessOwner #DesignerLife #Pretoria",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Meet the person behind the pixels \ud83d\udc4b I started Visual Versatility because I was tired of seeing small businesses settle for \"good enough\" design. Let's build something you're proud to show off.\n\n#MeetTheFounder #SmallBusinessOwner #DesignerLife #Pretoria",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day4-post3-a.png"
     ],
@@ -127,8 +164,11 @@
   {
     "id": "day5-post1",
     "scheduled_at": "2026-08-19T08:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "Static posts are great, but video is where engagement lives 📈 Let's create content that moves.\n\n#VideoEditing #ContentStrategy #Reels",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Static posts are great, but video is where engagement lives \ud83d\udcc8 Let's create content that moves.\n\n#VideoEditing #ContentStrategy #Reels",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day5-post1-a.png",
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day5-post1-b.png"
@@ -138,7 +178,10 @@
   {
     "id": "day5-post2",
     "scheduled_at": "2026-08-19T13:00:00Z",
-    "platforms": ["instagram", "facebook"],
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
     "caption": "Businesses with a strong visual identity see up to 80% higher brand recognition. Is your brand memorable?\n\n#BrandStrategy #MarketingTips #DesignMatters",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day5-post2-a.png"
@@ -148,8 +191,11 @@
   {
     "id": "day5-post3",
     "scheduled_at": "2026-08-19T18:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "Quick tip: your Instagram bio has 150 characters. Make every one count. ✍️ Formula that works: Who you help + What you do + Clear CTA.\n\n#InstagramTips #SocialMediaMarketing #SmallBusinessTips",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Quick tip: your Instagram bio has 150 characters. Make every one count. \u270d\ufe0f Formula that works: Who you help + What you do + Clear CTA.\n\n#InstagramTips #SocialMediaMarketing #SmallBusinessTips",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day5-post3-a.png"
     ],
@@ -158,8 +204,11 @@
   {
     "id": "day6-post1",
     "scheduled_at": "2026-08-20T08:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "\"Design is not just what it looks like. Design is how it works.\" — Steve Jobs\n\n#DesignQuote #Inspiration #CreativeMindset",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "\"Design is not just what it looks like. Design is how it works.\" \u2014 Steve Jobs\n\n#DesignQuote #Inspiration #CreativeMindset",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day6-post1-a.png"
     ],
@@ -168,8 +217,11 @@
   {
     "id": "day6-post2",
     "scheduled_at": "2026-08-20T13:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "Recent project spotlight 🔦 Swipe to see the full brand package we delivered.\n\n#PortfolioSpotlight #BrandDesign #CaseStudy",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Recent project spotlight \ud83d\udd26 Swipe to see the full brand package we delivered.\n\n#PortfolioSpotlight #BrandDesign #CaseStudy",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day6-post2-a.png",
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day6-post2-b.png"
@@ -179,8 +231,11 @@
   {
     "id": "day6-post3",
     "scheduled_at": "2026-08-20T18:00:00Z",
-    "platforms": ["instagram", "facebook"],
-    "caption": "The numbers don't lie 📊 Clients who refresh their brand with us see real results — more inquiries, more confidence, more clicks. Ready to be our next success story?\n\n#ResultsDriven #BrandROI #GrowYourBusiness",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "The numbers don't lie \ud83d\udcca Clients who refresh their brand with us see real results \u2014 more inquiries, more confidence, more clicks. Ready to be our next success story?\n\n#ResultsDriven #BrandROI #GrowYourBusiness",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day6-post3-a.png"
     ],
