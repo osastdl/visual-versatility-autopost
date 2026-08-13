@@ -6,32 +6,33 @@
 ```
 visual-versatility-autopost/
 ├── scripts/
-│   └── autopost.py
+│   ├── autopost.py
+│   └── reply_comments.py
 ├── content/
-│   └── calendar.json
+│   ├── calendar.json
+│   └── replied_comments.json
 ├── .github/
 │   └── workflows/
-│       └── post.yml
+│       ├── post.yml
+│       └── reply-comments.yml
 ├── requirements.txt
 └── README.md
 ```
 
-Create each folder/file via GitHub's "Add file" → "Create new file" button, pasting in the path
-(e.g. type `scripts/autopost.py` as the filename — GitHub creates the folder automatically) and
-the contents from the files provided.
+If setting this up from scratch (no direct repo access), create each folder/file via GitHub's
+"Add file" → "Create new file" button, pasting in the path (e.g. type `scripts/autopost.py` as
+the filename — GitHub creates the folder automatically) and the contents from the files
+provided.
 
 ## 2. IMPORTANT: images must be at PUBLIC urls
 
 Meta's Graph API fetches your images from a URL you give it — it cannot read files from a
-private GitHub repo. Every `images` entry in `content/calendar.json` currently has a
-placeholder like `https://REPLACE-WITH-PUBLIC-IMAGE-URL/...` — you must replace these with
-real, publicly-accessible image URLs before a post can go out. Options, easiest first:
+private GitHub repo. **Done**: images live in a separate **public** repo,
+`github.com/osastdl/visual-versatility-post-images`, and `content/calendar.json` links to them
+via `raw.githubusercontent.com` URLs. Nothing sensitive lives in that repo, just image files.
 
-- Upload images to a free host like **imgur.com** or **postimages.org** and copy the *direct*
-  image link (ends in .jpg/.png, not a page URL)
-- Create a **separate public** GitHub repo just for images, and use its raw.githubusercontent.com
-  links
-- Use a service like Cloudinary (free tier) if you want more control
+To add more images later: push new files to that public repo, then reference their
+`raw.githubusercontent.com` URL in a new `calendar.json` entry.
 
 ## 3. Get your 4 secret values
 
@@ -83,6 +84,11 @@ Add each of these four:
 Go to the **Actions** tab → "Auto-post to Instagram & Facebook" → **Run workflow** (manual
 trigger) to test immediately, rather than waiting for the schedule. Check the run's logs to
 confirm success or see the exact API error.
+
+There's a second workflow, "Auto-reply to Instagram comments" — it runs every 30 minutes and
+replies to comments on your own recent posts only (never on other accounts, that's not what
+this does). It reuses the same `IG_ACCESS_TOKEN` and `IG_USER_ID` secrets, so no extra setup
+is needed once the 4 secrets above are in place. Test it the same way, from the Actions tab.
 
 ## 6. Ongoing maintenance
 

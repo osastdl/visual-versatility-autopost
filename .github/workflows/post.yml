@@ -2,10 +2,11 @@ name: Auto-post to Instagram & Facebook
 
 on:
   schedule:
-    # Runs 3x/day: 08:07, 13:07, 18:07 UTC — adjust to your audience's timezone
-    - cron: "7 8 * * *"
-    - cron: "7 13 * * *"
-    - cron: "7 18 * * *"
+    # Runs 3x/day, Monday-Saturday (day-of-week 1-6, Sunday off): 08:07, 13:07, 18:07 UTC
+    # — adjust the hours to your audience's timezone if needed
+    - cron: "7 8 * * 1-6"
+    - cron: "7 13 * * 1-6"
+    - cron: "7 18 * * 1-6"
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
 
 permissions:

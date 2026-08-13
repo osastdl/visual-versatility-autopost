@@ -1,0 +1,38 @@
+name: Auto-reply to Instagram comments
+
+on:
+  schedule:
+    # Every 30 minutes -- checks the last 10 posts for new comments and
+    # replies to any not already answered. Only ever replies under our own
+    # posts, never on other accounts.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  reply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run comment-reply script
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+        run: python scripts/reply_comments.py
+
+      - name: Commit updated replied-comments log
+        run: |
+          git config user.name "autopost-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/replied_comments.json
+          git diff --staged --quiet || git commit -m "Record replied comments [skip ci]"
+          git push
