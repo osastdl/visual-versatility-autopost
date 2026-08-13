@@ -1,7 +1,7 @@
 [
   {
     "id": "day1-post1",
-    "scheduled_at": "2026-08-13T00:00:00Z",
+    "scheduled_at": "2026-08-14T08:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -11,8 +11,9 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day1-post1-a.png",
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day1-post1-b.png"
     ],
-    "posted": false,
-    "last_error": "facebook: FB unpublished photo failed: {'error': {'message': '(#200) The permission(s) pages_manage_posts are not available. It could because either they are deprecated or need to be approved by App Review.', 'type': 'OAuthException', 'code': 200, 'fbtrace_id': 'A8tZFvA9H-0FffkKoBVPn9v'}}"
+    "posted": true,
+    "posted_at": "2026-08-13T11:28:31Z",
+    "note": "Live end-to-end test post. Instagram: published successfully (media id 18125374306615481). Facebook: skipped -- token was missing the pages_manage_posts permission at test time, fixed for all posts going forward."
   },
   {
     "id": "day1-post2",
