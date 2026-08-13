@@ -1,0 +1,39 @@
+name: Finish pending Instagram video publishes
+
+on:
+  schedule:
+    # Every 5 minutes -- Instagram video processing usually finishes within
+    # a few minutes, so this is frequent enough to feel near-instant without
+    # hammering the API.
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  finish-videos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Finish pending video publishes
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: python scripts/finish_pending_videos.py
+
+      - name: Commit updated pending-videos list
+        run: |
+          git config user.name "autopost-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/pending_videos.json
+          git diff --staged --quiet || git commit -m "Update pending video publishes [skip ci]"
+          git push
