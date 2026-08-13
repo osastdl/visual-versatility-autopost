@@ -7,14 +7,17 @@
 visual-versatility-autopost/
 ├── scripts/
 │   ├── autopost.py
-│   └── reply_comments.py
+│   ├── reply_comments.py
+│   └── finish_pending_videos.py
 ├── content/
 │   ├── calendar.json
-│   └── replied_comments.json
+│   ├── replied_comments.json
+│   └── pending_videos.json
 ├── .github/
 │   └── workflows/
 │       ├── post.yml
-│       └── reply-comments.yml
+│       ├── reply-comments.yml
+│       └── finish-videos.yml
 ├── requirements.txt
 └── README.md
 ```
@@ -73,11 +76,13 @@ yourself — don't share it in chat, commits, or screenshots.
 
 In your repo: **Settings → Secrets and variables → Actions → New repository secret**
 
-Add each of these four:
+Add each of these:
 - `IG_ACCESS_TOKEN`
 - `IG_USER_ID`
 - `FB_PAGE_ID`
 - `FB_PAGE_TOKEN`
+- `TELEGRAM_BOT_TOKEN` — the VV Outreach bot's token (only needed for the video-completion
+  workflow below, to message you when an Instagram Reel finishes processing)
 
 ## 5. Test it
 
@@ -89,6 +94,12 @@ There's a second workflow, "Auto-reply to Instagram comments" — it runs every 
 replies to comments on your own recent posts only (never on other accounts, that's not what
 this does). It reuses the same `IG_ACCESS_TOKEN` and `IG_USER_ID` secrets, so no extra setup
 is needed once the 4 secrets above are in place. Test it the same way, from the Actions tab.
+
+A third workflow, "Finish pending Instagram video publishes," runs every 5 minutes and works
+together with the VV Outreach Telegram bot's Quick Post feature: when you send the bot a video,
+it uploads it and starts Instagram's processing, but can't wait around for it to finish (that
+can take minutes). This workflow checks in on any pending videos and publishes them + messages
+you on Telegram the moment they're ready.
 
 ## 6. Ongoing maintenance
 
