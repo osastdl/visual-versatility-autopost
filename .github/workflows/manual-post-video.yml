@@ -1,0 +1,36 @@
+name: Manual video post
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_url:
+        description: "Public URL of the video to post (e.g. raw.githubusercontent.com link)"
+        required: true
+      caption:
+        description: "Caption/hashtags to post with the video"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  post-video:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Post video to Instagram & Facebook
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          VIDEO_URL: ${{ github.event.inputs.video_url }}
+          CAPTION: ${{ github.event.inputs.caption }}
+        run: python scripts/manual_post_video.py
