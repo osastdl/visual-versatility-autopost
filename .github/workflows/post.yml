@@ -1,0 +1,40 @@
+name: Auto-post to Instagram & Facebook
+
+on:
+  schedule:
+    # Runs 3x/day: 08:07, 13:07, 18:07 UTC — adjust to your audience's timezone
+    - cron: "7 8 * * *"
+    - cron: "7 13 * * *"
+    - cron: "7 18 * * *"
+  workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run autopost script
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: python scripts/autopost.py
+
+      - name: Commit updated calendar (marks posts as posted)
+        run: |
+          git config user.name "autopost-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/calendar.json
+          git diff --staged --quiet || git commit -m "Mark posts as published [skip ci]"
+          git push
