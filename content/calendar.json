@@ -255,7 +255,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-website.mp4"
     ],
     "posted": false,
-    "last_error": "instagram: IG Reels processing failed for 18102797216600576; facebook: FB video post failed: {'error': {'message': 'Unable to fetch video file from URL.', 'type': 'OAuthException', 'code': 389, 'error_subcode': 1363057, 'is_transient': False, 'error_user_title': 'Unable to fetch video file from URL', 'error_user_msg': 'Unable to fetch video file from URL.', 'fbtrace_id': 'AmUTNZ7r3PPwI-Dn7VkkefU'}}"
+    "last_error": "instagram: IG Reels processing failed for 18102860024600576; facebook: FB video post failed: {'error': {'message': 'Unable to fetch video file from URL.', 'type': 'OAuthException', 'code': 389, 'error_subcode': 1363057, 'is_transient': False, 'error_user_title': 'Unable to fetch video file from URL', 'error_user_msg': 'Unable to fetch video file from URL.', 'fbtrace_id': 'A23laFfv2o-zePxKfXTyvQk'}}"
   },
   {
     "id": "content-video-2-inbox",
