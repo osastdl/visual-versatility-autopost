@@ -261,7 +261,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-website.mp4"
     ],
     "posted": false,
-    "last_error": "instagram: IG Reels processing failed for 18102938618600576; facebook: FB video post failed: {'error': {'message': 'Unable to fetch video file from URL.', 'type': 'OAuthException', 'code': 389, 'error_subcode': 1363057, 'is_transient': False, 'error_user_title': 'Unable to fetch video file from URL', 'error_user_msg': 'Unable to fetch video file from URL.', 'fbtrace_id': 'AtFoIBCaP8eLMORvMMZPDAl'}}"
+    "last_error": "instagram: IG Reels processing failed for 18102957626600576; facebook: FB video post failed: {'error': {'message': 'Unable to fetch video file from URL.', 'type': 'OAuthException', 'code': 389, 'error_subcode': 1363057, 'is_transient': False, 'error_user_title': 'Unable to fetch video file from URL', 'error_user_msg': 'Unable to fetch video file from URL.', 'fbtrace_id': 'Aq-EoQ-wUY2PDKL-4xPD6He'}}"
   },
   {
     "id": "content-video-2-inbox",
@@ -275,7 +275,8 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-inbox.mp4"
     ],
-    "posted": false
+    "posted": false,
+    "last_error": "instagram: IG Reels processing failed for 18102957797600576; facebook: FB video post failed: {'error': {'message': 'Unable to fetch video file from URL.', 'type': 'OAuthException', 'code': 389, 'error_subcode': 1363057, 'is_transient': False, 'error_user_title': 'Unable to fetch video file from URL', 'error_user_msg': 'Unable to fetch video file from URL.', 'fbtrace_id': 'AwCY7YRQySk5AL4YDZBP1Jd'}}"
   },
   {
     "id": "content-video-3-brand",
