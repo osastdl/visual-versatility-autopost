@@ -141,7 +141,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day3-post3-a.png"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18116887496293493",
+    "facebook_id": "122741580931419_122257977146088441",
+    "posted_at": "2026-08-17T18:52:32.729736+00:00"
   },
   {
     "id": "day4-post1",
@@ -155,7 +158,10 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day4-post1-a.png",
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day4-post1-b.png"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18093346166642586",
+    "facebook_id": "122741580931419_122258023766088441",
+    "posted_at": "2026-08-18T08:48:49.415977+00:00"
   },
   {
     "id": "day4-post2",
@@ -168,7 +174,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day4-post2-a.png"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18122539186883904",
+    "facebook_id": "122741580931419_122258040332088441",
+    "posted_at": "2026-08-18T13:50:48.618214+00:00"
   },
   {
     "id": "day4-post3",
@@ -181,7 +190,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day4-post3-a.png"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18013586924927236",
+    "facebook_id": "122741580931419_122258058896088441",
+    "posted_at": "2026-08-18T18:51:04.529568+00:00"
   },
   {
     "id": "day5-post1",
