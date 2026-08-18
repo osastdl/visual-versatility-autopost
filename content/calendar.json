@@ -433,6 +433,7 @@
   },
   {
     "id": "content-video-5-clarity",
+    "type": "video",
     "scheduled_at": "2026-08-23T22:00:00Z",
     "platforms": [
       "instagram",
@@ -561,6 +562,90 @@
     "caption": "Rest is part of the work, not a break from it. \ud83c\udf42\n\n#WorkLifeBalance #CreativeMindset #SlowDown",
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day14-post1-a.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "content-video-6-moodboard",
+    "type": "video",
+    "scheduled_at": "2026-08-21T22:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Brand and design, working from the same board \u2014 literally. \ud83c\udfa8\n\nEvery project starts with details nobody sees until they're already right.\n\n#DesignProcess #BrandIdentity #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-video-6.mp4"
+    ],
+    "posted": false
+  },
+  {
+    "id": "content-video-7-onestep",
+    "type": "video",
+    "scheduled_at": "2026-08-22T22:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Every big idea starts with one small step forward. \ud83c\udf05\n\n#Inspiration #SmallBusinessOwner #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-video-7.mp4"
+    ],
+    "posted": false
+  },
+  {
+    "id": "content-video-8-handshake",
+    "type": "video",
+    "scheduled_at": "2026-08-24T22:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "The handshake means more when the site behind it is right. \ud83e\udd1d\n\nThat's the whole point of doing this properly.\n\n#ClientRelationships #WebDesign #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-video-8.mp4"
+    ],
+    "posted": false
+  },
+  {
+    "id": "content-video-9-shipped",
+    "type": "video",
+    "scheduled_at": "2026-08-25T22:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Another project shipped. On to the next idea. \ud83c\udf07\n\n#DesignStudio #CreativeLife #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-video-9.mp4"
+    ],
+    "posted": false
+  },
+  {
+    "id": "content-video-10-sketch",
+    "type": "video",
+    "scheduled_at": "2026-08-26T22:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Not every idea makes it. The one that does earns its place. \u270f\ufe0f\n\n#DesignProcess #LogoDesign #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-video-10.mp4"
+    ],
+    "posted": false
+  },
+  {
+    "id": "content-video-11-devices",
+    "type": "video",
+    "scheduled_at": "2026-08-27T22:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Desktop. Mobile. Everything in between. We design for how people actually browse. \ud83d\udcf1\ud83d\udcbb\n\n#ResponsiveDesign #WebDesign #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-video-11.mp4"
     ],
     "posted": false
   }
