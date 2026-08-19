@@ -1158,5 +1158,18 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post30-b.jpg"
     ],
     "posted": false
+  },
+  {
+    "id": "business-card-reveal",
+    "scheduled_at": "2026-08-19T00:51:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "New cards, same standard. ✨\n\nVisual Versatility — Theophilus Amadasun, Creative Director.\n\n#BrandIdentity #BusinessCards #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-business-card-reveal-a.jpg"
+    ],
+    "posted": false
   }
 ]
