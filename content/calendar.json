@@ -786,5 +786,83 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post9-b.jpg"
     ],
     "posted": false
+  },
+  {
+    "id": "day15-post1",
+    "scheduled_at": "2026-09-01T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "A logo is just the start. The real work is the rulebook behind it, color, type, spacing, tone, so your brand looks like your brand no matter who is using the files. 📘\n\n#BrandGuidelines #BrandIdentity #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day15-post1-a.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "day15-post2",
+    "scheduled_at": "2026-09-01T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Some of the best work happens before the city wakes up. 🌅 Quiet mornings, focused work, better output.\n\n#StudioLife #EarlyMornings #DesignProcess #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day15-post2-a.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "day16-post1",
+    "scheduled_at": "2026-09-02T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "This is what a real brand refresh looks like, not a tweak, a transformation. Night and day. 🎨\n\n#BrandRefresh #GraphicDesign #BeforeAndAfter #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day16-post1-a.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "day16-post2",
+    "scheduled_at": "2026-09-02T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "A peek at how we design testimonial sections, built to make real client feedback feel as polished as the rest of your site. (Sample design shown.) ⭐\n\n#WebDesign #UXDesign #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day16-post2-a.png"
+    ],
+    "posted": false
+  },
+  {
+    "id": "day17-post1",
+    "scheduled_at": "2026-09-02T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Another evening, another idea turned into something real. The work does not stop when the sun goes down. 💡\n\n#StudioLife #WorkInProgress #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day17-post1-a.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "day17-post2",
+    "scheduled_at": "2026-09-03T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Best ideas happen over coffee, sometimes two cups deep. ☕☕ Here is to the process.\n\n#CreativeProcess #StudioLife #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day17-post2-a.jpg"
+    ],
+    "posted": false
   }
 ]
