@@ -1116,5 +1116,47 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post27-b.jpg"
     ],
     "posted": false
+  },
+  {
+    "id": "adshoot-post28",
+    "scheduled_at": "2026-09-10T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "From a standing desk to a launch screen, this is what shipping an app actually looks like from the inside. 💻🚀\n\n#AppDevelopment #SoftwareDevelopment #TechStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post28-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post28-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post29",
+    "scheduled_at": "2026-09-10T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "The creative side and the infrastructure side, a bold poster concept and the servers that keep everything running. Both matter. 🖼️🖥️\n\n#GraphicDesign #WebInfrastructure #FullStackStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post29-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post29-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post30",
+    "scheduled_at": "2026-09-11T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Where every mark starts, and the person who starts them. ✏️\n\n#LogoDesign #MeetTheFounder #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post30-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post30-b.jpg"
+    ],
+    "posted": false
   }
 ]
