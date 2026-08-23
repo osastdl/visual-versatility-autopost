@@ -458,7 +458,10 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day9-post1-a.jpg",
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day9-post1-b.jpg"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18108627551037065",
+    "facebook_id": "122741580931419_122258546606088441",
+    "posted_at": "2026-08-23T22:34:36.808928+00:00"
   },
   {
     "id": "day9-post2",
@@ -471,7 +474,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-day9-post2-a.png"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18154263943500919",
+    "facebook_id": "122741580931419_122258546756088441",
+    "posted_at": "2026-08-23T22:34:49.298999+00:00"
   },
   {
     "id": "content-video-5-clarity",
@@ -485,7 +491,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-content-video-5.mp4"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18108484280123639",
+    "facebook_id": "1554997915559746",
+    "posted_at": "2026-08-23T22:35:22.493814+00:00"
   },
   {
     "id": "day10-post1",
