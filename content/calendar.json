@@ -708,7 +708,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-calm-03.mp4"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18367084630210328",
+    "facebook_id": "916898417672180",
+    "posted_at": "2026-08-27T19:00:18.353190+00:00"
   },
   {
     "id": "vv-calm-04",
@@ -722,7 +725,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-calm-04.mp4"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18103871804216902",
+    "facebook_id": "2850408651984254",
+    "posted_at": "2026-08-27T19:01:01.839217+00:00"
   },
   {
     "id": "vv-calm-05",
