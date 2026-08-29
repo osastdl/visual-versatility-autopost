@@ -776,9 +776,11 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-calm-07.mp4"
     ],
-    "posted": false,
-    "facebook_id": "1638276497655683",
-    "last_error": "instagram: IG Reels processing failed for 18105053594600576"
+    "posted": true,
+    "facebook_id": "1086645737141926",
+    "last_error": "instagram: IG Reels processing failed for 18105053594600576",
+    "instagram_id": "18123753608497806",
+    "posted_at": "2026-08-29T17:05:48.469201+00:00"
   },
   {
     "id": "vv-calm-08",
