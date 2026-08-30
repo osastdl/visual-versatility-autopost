@@ -1386,5 +1386,455 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-calm-50.mp4"
     ],
     "posted": false
+  },
+  {
+    "id": "adshoot-post1",
+    "type": "image",
+    "scheduled_at": "2026-09-21T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "One partner, every screen size. \ud83d\udcbb\ud83d\udcf1 From how the team works together to how your site performs on any device, it is all part of the same standard. Ready for a website that actually works everywhere? Let us talk.\n\n#WebDesign #ResponsiveDesign #DesignStudio #VisualVersatility #SmallBusinessBranding",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post1-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post1-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post2",
+    "type": "image",
+    "scheduled_at": "2026-09-21T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Behind every pitch, there is real work backing it up. \ud83d\udcbb Clean code, honest presentations, no smoke and mirrors, just a team that ships what it promises.\n\n#SoftwareDevelopment #CleanCode #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post2-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post2-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post3",
+    "type": "image",
+    "scheduled_at": "2026-09-21T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "From a single logo mark to a full mobile app, every detail gets the same level of care. \ud83d\ude80\n\n#AppDevelopment #LogoDesign #BrandIdentity #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post3-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post3-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post4",
+    "type": "image",
+    "scheduled_at": "2026-09-22T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Good brands are not built alone. \ud83c\udfa8 Two heads on a layout, a shirt that actually gets worn, this is what real brand work looks like behind the scenes.\n\n#BrandDesign #TeamWork #Merchandise #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post4-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post4-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post5",
+    "type": "image",
+    "scheduled_at": "2026-09-22T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "New look, same standard. \u2615 This is home base, where every project starts, one idea at a time.\n\n#DesignStudio #StudioLife #VisualVersatility #CreativeAgency",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post5-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post5-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post6",
+    "type": "image",
+    "scheduled_at": "2026-09-22T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Big picture or small detail, same obsession with getting it right. \ud83d\udcd3\ud83d\udcf1\n\n#UIDesign #BrandedMerchandise #AttentionToDetail #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post6-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post6-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post7",
+    "type": "image",
+    "scheduled_at": "2026-09-23T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "We do not just build it, we test it. \ud83d\udcca Real dashboards, real devices, zero guesswork before anything ships.\n\n#SoftwareDevelopment #QualityAssurance #TechStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post7-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post7-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post8",
+    "type": "image",
+    "scheduled_at": "2026-09-23T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "The brand you carry. The infrastructure you do not see. Both matter just as much. \ud83d\udc5c\u2699\ufe0f\n\n#BrandIdentity #WebInfrastructure #FullStackStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post8-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post8-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post9",
+    "type": "image",
+    "scheduled_at": "2026-09-23T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Every mark starts as a work in progress. \ud83c\udf07 Still here, still building, long after the lights go down.\n\n#LogoDesign #BrandIdentity #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post9-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post9-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post10",
+    "type": "image",
+    "scheduled_at": "2026-09-24T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "A clean website is only half the story, the other half is what happens after someone lands on it. \ud83d\udcac\n\n#WebDesign #UserExperience #AIAutomation #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post10-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post10-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post11",
+    "type": "image",
+    "scheduled_at": "2026-09-24T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "From the box it comes in to the site it is ordered from, every touchpoint gets the same attention to detail. \ud83d\udce6\ud83d\udcf1\n\n#PackagingDesign #MobileFirst #BrandExperience #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post11-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post11-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post12",
+    "type": "image",
+    "scheduled_at": "2026-09-24T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Print or space, digital or physical, good design shows up consistently, everywhere your brand lives. \ud83c\udfe2\n\n#PrintDesign #BrandConsistency #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post12-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post12-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post13",
+    "type": "image",
+    "scheduled_at": "2026-09-25T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "What you wear and what runs behind the scenes, both built with the same care. \ud83d\udc55\ud83d\udcbb\n\n#BrandMerchandise #SoftwareDevelopment #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post13-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post13-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post14",
+    "type": "image",
+    "scheduled_at": "2026-09-25T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Every great idea starts messy on a whiteboard before it ever gets clean on a screen. \ud83d\udcdd\n\n#DesignProcess #Brainstorming #CreativeStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post14-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post14-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post15",
+    "type": "image",
+    "scheduled_at": "2026-09-25T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Color, tone, and personality, decided long before a single line of code gets written. \ud83c\udfa8\ud83e\udd16\n\n#BrandStrategy #Moodboard #AIAutomation #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post15-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post15-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post16",
+    "type": "image",
+    "scheduled_at": "2026-09-26T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Real people, real focus, real work, that is the studio behind every project we ship. \ud83d\udc4b\n\n#MeetTheTeam #CreativeStudio #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post16-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post16-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post17",
+    "type": "image",
+    "scheduled_at": "2026-09-26T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Whether it is the first handshake or the last line of code, we are hands-on the whole way through. \ud83e\udd1d\ud83d\udcbb\n\n#SmallBusinessBranding #FullStackStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post17-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post17-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post18",
+    "type": "image",
+    "scheduled_at": "2026-09-26T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "One brand, applied everywhere your team goes. \ud83e\udde2\n\n#BrandMerchandise #BrandIdentity #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post18-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post18-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post19",
+    "type": "image",
+    "scheduled_at": "2026-09-28T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "A documented brand system means every new page, post, or product still feels unmistakably you. \ud83d\udcd8\ud83c\udf10\n\n#BrandGuidelines #WebDesign #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post19-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post19-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post20",
+    "type": "image",
+    "scheduled_at": "2026-09-28T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Automation is not flashy, it is just fewer things falling through the cracks. \u2699\ufe0f\ud83d\udcf2\n\n#Automation #Workflow #TechStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post20-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post20-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post21",
+    "type": "image",
+    "scheduled_at": "2026-09-28T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Small details, consistent branding, from the door to the wardrobe. \ud83d\udeaa\ud83d\udc55\n\n#BrandIdentity #Signage #Merchandise #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post21-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post21-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post22",
+    "type": "image",
+    "scheduled_at": "2026-09-29T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Nothing ships from one person alone. Every build is a team effort, start to finish. \ud83d\udc65\n\n#TeamWork #SoftwareDevelopment #CreativeStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post22-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post22-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post23",
+    "type": "image",
+    "scheduled_at": "2026-09-29T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "From the front desk to the back-end dashboard, every part of the business gets the same attention. \ud83d\udcca\n\n#BusinessAutomation #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post23-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post23-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post24",
+    "type": "image",
+    "scheduled_at": "2026-09-29T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Late nights, sharp details, even the letterhead gets the full treatment. \ud83c\udf03\ud83d\udcc4\n\n#StudioLife #Stationery #BrandIdentity #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post24-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post24-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post25",
+    "type": "image",
+    "scheduled_at": "2026-09-30T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "It starts with a pencil and a cup of coffee. Everything else follows. \u270f\ufe0f\u2615\n\n#DesignProcess #CreativeStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post25-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post25-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post26",
+    "type": "image",
+    "scheduled_at": "2026-09-30T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "A deal closed, a keyboard warming up, that is the moment a project actually begins. \ud83e\udd1d\u2328\ufe0f\n\n#NewClient #SoftwareDevelopment #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post26-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post26-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post27",
+    "type": "image",
+    "scheduled_at": "2026-09-30T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Behind every clean interface is a clean structure holding it together. \ud83d\uddc3\ufe0f\n\n#SoftwareArchitecture #WebDesign #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post27-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post27-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post28",
+    "type": "image",
+    "scheduled_at": "2026-10-01T08:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "From a standing desk to a launch screen, this is what shipping an app actually looks like from the inside. \ud83d\udcbb\ud83d\ude80\n\n#AppDevelopment #SoftwareDevelopment #TechStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post28-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post28-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post29",
+    "type": "image",
+    "scheduled_at": "2026-10-01T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "The creative side and the infrastructure side, a bold poster concept and the servers that keep everything running. Both matter. \ud83d\uddbc\ufe0f\ud83d\udda5\ufe0f\n\n#GraphicDesign #WebInfrastructure #FullStackStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post29-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post29-b.jpg"
+    ],
+    "posted": false
+  },
+  {
+    "id": "adshoot-post30",
+    "type": "image",
+    "scheduled_at": "2026-10-01T18:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Where every mark starts, and the person who starts them. \u270f\ufe0f\n\n#LogoDesign #MeetTheFounder #DesignStudio #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post30-a.jpg",
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post30-b.jpg"
+    ],
+    "posted": false
   }
 ]
