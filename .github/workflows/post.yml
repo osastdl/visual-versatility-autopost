@@ -2,14 +2,12 @@ name: Auto-post to Instagram & Facebook
 
 on:
   schedule:
-    # Runs 3x/day, Monday-Saturday (day-of-week 1-6, Sunday off): 08:07, 13:07, 18:07 UTC
-    # — adjust the hours to your audience's timezone if needed
-    - cron: "7 8 * * 1-6"
-    - cron: "7 13 * * 1-6"
-    - cron: "7 18 * * 1-6"
-    # 22:07 UTC daily = 4:07pm UTC-6 (Central America) -- added for the
-    # 4-day "relatable content" video batch, runs every day (not just
-    # Mon-Sat like the rest) since it's a short fixed-length campaign.
+    # 2 posts/day aimed at a US audience (see VV_Content_Strategy_US.md):
+    #   16:07 UTC = 18:07 SAST = ~12pm US Eastern (lunch scroll)
+    #   22:07 UTC = 00:07 SAST = ~6pm US Eastern (evening scroll)
+    # The old 08:07 (10am SAST) and 13:07 (3pm SAST) slots were the two
+    # weakest in the real insights data and were dropped.
+    - cron: "7 16 * * *"
     - cron: "7 22 * * *"
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
 
