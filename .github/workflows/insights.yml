@@ -1,0 +1,36 @@
+name: Pull Instagram & Facebook insights (read-only)
+
+# Manual only. Does NOT post anything -- it reads per-post insights and
+# audience geography from the Meta Graph API and writes a report artifact.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install -r requirements.txt
+
+      - name: Pull insights
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+        run: python scripts/insights.py
+
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: insights_report
+          path: content/insights_report.json
+          if-no-files-found: warn
