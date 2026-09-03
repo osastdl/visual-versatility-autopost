@@ -158,17 +158,24 @@ def ig_audience():
     """follower_demographics + reached/engaged audience, country breakdown."""
     out = {}
     combos = [
-        ("followers", "follower_demographics", {"period": "lifetime"}),
-        ("reached", "reached_audience_demographics", {"period": "lifetime", "timeframe": "last_30_days"}),
-        ("engaged", "engaged_audience_demographics", {"period": "lifetime", "timeframe": "last_30_days"}),
+        ("followers", "follower_demographics", [{"period": "lifetime"}]),
+        ("reached", "reached_audience_demographics",
+         [{"period": "lifetime", "timeframe": tf} for tf in ("this_week", "this_month", "prev_month")]),
+        ("engaged", "engaged_audience_demographics",
+         [{"period": "lifetime", "timeframe": tf} for tf in ("this_week", "this_month", "prev_month")]),
     ]
-    for key, metric, extra in combos:
-        params = {"metric": metric, "metric_type": "total_value",
-                  "breakdown": "country", "access_token": IG_ACCESS_TOKEN}
-        params.update(extra)
-        j = get(f"{GRAPH}/{IG_USER_ID}/insights", params, f"ig_audience[{key}]")
-        if "__error__" in j:
-            out[key] = {"error": j["__error__"]}
+    for key, metric, attempts in combos:
+        j = None
+        for extra in attempts:
+            params = {"metric": metric, "metric_type": "total_value",
+                      "breakdown": "country", "access_token": IG_ACCESS_TOKEN}
+            params.update(extra)
+            j = get(f"{GRAPH}/{IG_USER_ID}/insights", params, f"ig_audience[{key}:{extra.get('timeframe','-')}]")
+            if "__error__" not in j:
+                out.setdefault("_meta", {})[key] = extra
+                break
+        if j is None or "__error__" in j:
+            out[key] = {"error": j["__error__"] if j else "no attempt"}
             continue
         try:
             results = j["data"][0]["total_value"]["breakdowns"][0]["results"]
@@ -215,16 +222,25 @@ def fb_post_insights(fb_id):
 
 
 def fb_page_audience():
-    j = get(f"{GRAPH}/{FB_PAGE_ID}/insights",
-            {"metric": "page_fans_country", "period": "lifetime", "access_token": FB_PAGE_TOKEN},
-            "fb_page_fans_country")
-    if "__error__" in j:
-        return {"error": j["__error__"]}
-    try:
-        vals = j["data"][0]["values"][-1]["value"]
-        return summarize_geo(vals)
-    except Exception as e:  # noqa: BLE001
-        return {"error": f"parse: {e}"}
+    attempts = [
+        ({"metric": "page_fans_country", "period": "lifetime"}, "page_fans_country"),
+        ({"metric": "page_impressions_by_country_unique", "period": "days_28"}, "page_impr_country"),
+    ]
+    for params, label in attempts:
+        params["access_token"] = FB_PAGE_TOKEN
+        j = get(f"{GRAPH}/{FB_PAGE_ID}/insights", params, label)
+        if "__error__" in j:
+            last = j["__error__"]
+            continue
+        try:
+            vals = j["data"][0]["values"][-1]["value"]
+            if vals:
+                res = summarize_geo(vals)
+                res["_source_metric"] = label
+                return res
+        except Exception as e:  # noqa: BLE001
+            last = f"parse: {e}"
+    return {"error": last, "note": "Meta removed most Page country demographics in v20+"}
 
 
 def main():
