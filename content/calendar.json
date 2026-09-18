@@ -1439,8 +1439,11 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r16.mp4"
     ],
-    "posted": false,
-    "scheduled_at": "2026-09-18T16:00:00Z"
+    "posted": true,
+    "scheduled_at": "2026-09-18T16:00:00Z",
+    "instagram_id": "18128136487788901",
+    "facebook_id": "2013524749283817",
+    "posted_at": "2026-09-18T18:58:59.522816+00:00"
   },
   {
     "id": "adshoot-post15",
