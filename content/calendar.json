@@ -1457,9 +1457,11 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post15.mp4"
     ],
-    "posted": false,
-    "instagram_id": "18113747914820706",
-    "last_error": "facebook: Expecting value: line 1 column 1 (char 0)"
+    "posted": true,
+    "instagram_id": "18083133707698175",
+    "last_error": "facebook: Expecting value: line 1 column 1 (char 0)",
+    "facebook_id": "2380498469021543",
+    "posted_at": "2026-09-19T18:33:21.471437+00:00"
   },
   {
     "id": "vv-us-r07",
@@ -1472,8 +1474,11 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r07.mp4"
     ],
-    "posted": false,
-    "scheduled_at": "2026-09-19T16:00:00Z"
+    "posted": true,
+    "scheduled_at": "2026-09-19T16:00:00Z",
+    "instagram_id": "18131636272739124",
+    "facebook_id": "984804841329006",
+    "posted_at": "2026-09-19T18:34:14.558868+00:00"
   },
   {
     "id": "adshoot-post16",
