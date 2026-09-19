@@ -1457,7 +1457,9 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post15.mp4"
     ],
-    "posted": false
+    "posted": false,
+    "instagram_id": "18113747914820706",
+    "last_error": "facebook: Expecting value: line 1 column 1 (char 0)"
   },
   {
     "id": "vv-us-r07",
