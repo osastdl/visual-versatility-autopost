@@ -218,6 +218,8 @@ def main():
         print("No posts due right now.")
         return
 
+    failed = []   # (label, error) for every post that did not go out on all its platforms
+
     for post in pending:
         label = post.get("id", post["scheduled_at"])
         targets = post.get("platforms", ["instagram", "facebook"])
@@ -246,8 +248,17 @@ def main():
             post["posted_at"] = datetime.now(timezone.utc).isoformat()
         else:
             post["last_error"] = "; ".join(errors)
+            failed.append((label, post["last_error"]))
 
     save_calendar(posts)
+
+    # Make failures visible: exit non-zero AFTER saving, so the workflow still commits which posts did succeed
+    # (and then fails the run, which makes GitHub email the owner instead of showing a misleading green tick).
+    if failed:
+        for label, err in failed:
+            print(f"::error title=Post failed ({label})::{err[:400]}")
+        print(f"{len(failed)} of {len(pending)} due post(s) FAILED. They stay unposted and will be retried next run.", file=sys.stderr)
+        sys.exit(1)
 
 
 if __name__ == "__main__":
