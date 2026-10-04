@@ -73,6 +73,8 @@ def get_recent_media():
         f"{GRAPH_API}/{IG_USER_ID}/media",
         params={"fields": "id,caption", "limit": RECENT_MEDIA_COUNT, "access_token": IG_ACCESS_TOKEN},
     ).json()
+    if "error" in resp:
+        raise RuntimeError(f"could not list recent posts: {resp['error']}")
     return resp.get("data", [])
 
 
@@ -81,6 +83,8 @@ def get_comments(media_id):
         f"{GRAPH_API}/{media_id}/comments",
         params={"fields": "id,text,username", "access_token": IG_ACCESS_TOKEN},
     ).json()
+    if "error" in resp:
+        raise RuntimeError(f"could not read comments: {resp['error']}")
     return resp.get("data", [])
 
 
@@ -96,7 +100,14 @@ def reply_to_comment(comment_id, message):
 
 def main():
     replied_ids = set(load_replied())
-    media_items = get_recent_media()
+    failures = []
+    try:
+        media_items = get_recent_media()
+    except Exception as e:
+        # Usually an expired/revoked token. Nothing else can work, so report it and fail the run.
+        print(f"::error title=Comment replies failed::{str(e)[:400]}")
+        print(f"FAILED: {e}", file=sys.stderr)
+        sys.exit(1)
 
     new_replies = 0
     for media in media_items:
@@ -104,6 +115,7 @@ def main():
             comments = get_comments(media["id"])
         except Exception as e:
             print(f"[media {media['id']}] failed to fetch comments: {e}", file=sys.stderr)
+            failures.append(f"media {media['id']}: {e}")
             continue
 
         for comment in comments:
@@ -120,9 +132,14 @@ def main():
                 time.sleep(1)
             except Exception as e:
                 print(f"[media {media['id']}] FAILED to reply to comment {comment_id}: {e}", file=sys.stderr)
+                failures.append(f"comment {comment_id}: {e}")
 
+    # Save first so replies that DID go out are never repeated, then fail the run so the workflow emails the owner.
     save_replied(sorted(replied_ids))
     print(f"Done. {new_replies} new reply/replies posted.")
+    if failures:
+        print(f"::error title=Comment replies failed::{len(failures)} problem(s); first: {failures[0][:400]}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

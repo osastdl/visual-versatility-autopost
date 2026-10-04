@@ -66,6 +66,8 @@ def check_status(creation_id):
         f"{GRAPH_API}/{creation_id}",
         params={"fields": "status_code", "access_token": IG_ACCESS_TOKEN},
     ).json()
+    if "error" in resp:
+        raise RuntimeError(f"status check rejected: {resp['error']}")
     return resp.get("status_code")
 
 
@@ -95,12 +97,14 @@ def main():
         return
 
     still_pending = []
+    failures = []
     for item in pending:
         creation_id = item["creation_id"]
         try:
             status = check_status(creation_id)
         except Exception as e:
             print(f"[{creation_id}] status check FAILED: {e}", file=sys.stderr)
+            failures.append(f"{creation_id}: {e}")
             still_pending.append(item)
             continue
 
@@ -112,18 +116,24 @@ def main():
                 notify(item["chat_id"], f"📸 Your Instagram video is live!\n\n{item.get('caption', '')}")
             except Exception as e:
                 print(f"[{creation_id}] publish FAILED: {e}", file=sys.stderr)
+                failures.append(f"{creation_id}: {e}")
                 notify(item["chat_id"], f"❌ Instagram video failed to publish: {e}")
                 # Don't requeue -- Meta already finished processing, retrying
                 # publish on the same creation_id won't fix a real error.
         elif status == "ERROR":
             print(f"[{creation_id}] Meta reported a processing ERROR, dropping it.", file=sys.stderr)
+            failures.append(f"{creation_id}: Meta processing ERROR")
             notify(item["chat_id"], "❌ Instagram couldn't process that video (processing error on their end). Facebook is still live.")
         else:
             # IN_PROGRESS or unknown -- keep waiting.
             still_pending.append(item)
 
+    # Save first so nothing already published is repeated, then fail the run so the workflow emails the owner.
     save_pending(still_pending)
     print(f"Done. {len(pending) - len(still_pending)} resolved, {len(still_pending)} still pending.")
+    if failures:
+        print(f"::error title=Video publish problem::{len(failures)} problem(s); first: {failures[0][:400]}")
+        sys.exit(1)
 
 
 if __name__ == "__main__":
