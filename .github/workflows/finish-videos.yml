@@ -24,6 +24,9 @@ jobs:
       - run: pip install -r requirements.txt
 
       - name: Finish pending video publishes
+        id: finish
+        # Keep going on failure so the next step still saves progress; the job is failed at the end.
+        continue-on-error: true
         env:
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
@@ -37,3 +40,9 @@ jobs:
           git add content/pending_videos.json content/posted_log.json
           git diff --staged --quiet || git commit -m "Update pending video publishes [skip ci]"
           git push
+
+      - name: Fail the run if the script failed (so GitHub emails you)
+        if: steps.finish.outcome == 'failure'
+        run: |
+          echo "::error::The script reported a failure (see the 'Finish pending video publishes' step for the Meta error). Anything that succeeded was saved."
+          exit 1
