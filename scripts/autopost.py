@@ -225,7 +225,11 @@ def main():
         targets = post.get("platforms", ["instagram", "facebook"])
         errors = []
 
-        if "instagram" in targets:
+        # A platform id is only stored after that platform succeeded. If a previous run got Instagram out but
+        # Facebook failed, retrying must NOT post to Instagram a second time.
+        if "instagram" in targets and post.get("instagram_id"):
+            print(f"[{label}] Instagram already published ({post['instagram_id']}), skipping")
+        elif "instagram" in targets:
             try:
                 ig_id = publish_instagram(post)
                 print(f"[{label}] Instagram published: {ig_id}")
@@ -234,7 +238,9 @@ def main():
                 errors.append(f"instagram: {e}")
                 print(f"[{label}] Instagram FAILED: {e}", file=sys.stderr)
 
-        if "facebook" in targets:
+        if "facebook" in targets and post.get("facebook_id"):
+            print(f"[{label}] Facebook already published ({post['facebook_id']}), skipping")
+        elif "facebook" in targets:
             try:
                 fb_id = publish_facebook(post)
                 print(f"[{label}] Facebook published: {fb_id}")
@@ -246,6 +252,7 @@ def main():
         if not errors:
             post["posted"] = True
             post["posted_at"] = datetime.now(timezone.utc).isoformat()
+            post.pop("last_error", None)
         else:
             post["last_error"] = "; ".join(errors)
             failed.append((label, post["last_error"]))
