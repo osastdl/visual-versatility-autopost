@@ -1611,13 +1611,12 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r09.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-09-23T16:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AoE5ptivXYmlmo1XTJW6ssM'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'Av2BOdvEFbAfz9tyfg-n-N4'}}"
+    "scheduled_at": "2026-10-05T16:00:00Z"
   },
   {
     "id": "adshoot-post20",
     "type": "video",
-    "scheduled_at": "2026-09-23T22:00:00Z",
+    "scheduled_at": "2026-10-05T22:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1626,8 +1625,7 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post20.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AUuaEMdx8hk3zPsGQ7A2I3L'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AkxRUmiAeC0S5eqNo0KBlW9'}}"
+    "posted": false
   },
   {
     "id": "vv-us-r19",
@@ -1641,13 +1639,12 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r19.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-09-24T16:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A9gxzLp9tfGur242FzS2j3J'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A8GOX3eFIsC7tYc0HwTrMjW'}}"
+    "scheduled_at": "2026-10-06T16:00:00Z"
   },
   {
     "id": "adshoot-post21",
     "type": "video",
-    "scheduled_at": "2026-09-24T22:00:00Z",
+    "scheduled_at": "2026-10-06T22:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1656,8 +1653,7 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post21.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AI30w1e_Z8X-OHQ2K6oZc5P'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A96Jv1yihr8u27y7_aCseqE'}}"
+    "posted": false
   },
   {
     "id": "vv-us-r10",
@@ -1671,13 +1667,12 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r10.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-09-25T16:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AXsQKMLFuyDZ-lPt28uAVt5'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AmF5vDWSVftonDaoxNzJz2n'}}"
+    "scheduled_at": "2026-10-07T16:00:00Z"
   },
   {
     "id": "adshoot-post22",
     "type": "video",
-    "scheduled_at": "2026-09-25T22:00:00Z",
+    "scheduled_at": "2026-10-07T22:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1686,8 +1681,7 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post22.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A0zuIt6oIi9QYAKYiCpAN9V'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A5_dnSQJXm3638z-2km9nOj'}}"
+    "posted": false
   },
   {
     "id": "vv-us-r20",
@@ -1701,13 +1695,12 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r20.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-09-26T16:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AdfeVQDS4lOcp3O2rWwxncQ'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'Ay0Er41ggzniJ2R0LiGWSYi'}}"
+    "scheduled_at": "2026-10-08T16:00:00Z"
   },
   {
     "id": "adshoot-post23",
     "type": "video",
-    "scheduled_at": "2026-09-26T22:00:00Z",
+    "scheduled_at": "2026-10-08T22:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1716,8 +1709,7 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post23.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'ABGJAf7l9Kd2aHgamMX5xuM'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'ArHDK9ce5xWqQJ2oA6eu040'}}"
+    "posted": false
   },
   {
     "id": "vv-us-r21",
@@ -1731,13 +1723,12 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r21.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-09-27T16:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'Ap9PeLXfk27TI9tN8q3kqrU'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A_TYs_UL__xeO8Wtjx9CFY4'}}"
+    "scheduled_at": "2026-10-09T16:00:00Z"
   },
   {
     "id": "adshoot-post24",
     "type": "video",
-    "scheduled_at": "2026-09-27T22:00:00Z",
+    "scheduled_at": "2026-10-09T22:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1746,8 +1737,7 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post24.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A0MoTvD4MTo0VzBdVXRIELH'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AS3ThsiQTx9x5fMwpyU0Nd2'}}"
+    "posted": false
   },
   {
     "id": "vv-us-r22",
@@ -1761,13 +1751,12 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r22.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-09-28T16:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AglpMJoU4Szu-27TYrhx7ZS'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AQb1kBLbjkQLp_EgL08P0dk'}}"
+    "scheduled_at": "2026-10-10T16:00:00Z"
   },
   {
     "id": "adshoot-post25",
     "type": "video",
-    "scheduled_at": "2026-09-28T22:00:00Z",
+    "scheduled_at": "2026-10-10T22:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1776,13 +1765,12 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post25.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AMzDN8TBjQiUS9m4gST0dIj'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'Af-ngqd3OVVf2Ee1RtOtmBr'}}"
+    "posted": false
   },
   {
     "id": "adshoot-post26",
     "type": "video",
-    "scheduled_at": "2026-09-29T16:00:00Z",
+    "scheduled_at": "2026-10-11T16:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1791,13 +1779,12 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post26.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A_iAPDDPrLmJE790tIpwf7K'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A6HnZ-oVqL1TCZkAM2mqe2m'}}"
+    "posted": false
   },
   {
     "id": "adshoot-post27",
     "type": "video",
-    "scheduled_at": "2026-09-29T22:00:00Z",
+    "scheduled_at": "2026-10-11T22:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1806,13 +1793,12 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post27.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AtxlsHtPmpklZKONgTgmQov'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AQhbyurVpUFW7q7HGmMfyqn'}}"
+    "posted": false
   },
   {
     "id": "adshoot-post28",
     "type": "video",
-    "scheduled_at": "2026-09-30T16:00:00Z",
+    "scheduled_at": "2026-10-12T16:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1821,13 +1807,12 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post28.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AtzySBRvZMwCnChuDOPU2jE'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A2AqHlOsS26i4ce1-qZ16bV'}}"
+    "posted": false
   },
   {
     "id": "adshoot-post29",
     "type": "video",
-    "scheduled_at": "2026-09-30T22:00:00Z",
+    "scheduled_at": "2026-10-12T22:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1836,13 +1821,12 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post29.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'ANpHhsihhOnzh0JVa2W35_Z'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AF2RmTZD6213eFaFq4I_slM'}}"
+    "posted": false
   },
   {
     "id": "adshoot-post30",
     "type": "video",
-    "scheduled_at": "2026-10-01T16:00:00Z",
+    "scheduled_at": "2026-10-13T16:00:00Z",
     "platforms": [
       "instagram",
       "facebook"
@@ -1851,8 +1835,7 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post30.mp4"
     ],
-    "posted": false,
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A1wQfY8BIlVY9ellqYRCyUU'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AU3p-TbtHxZ_Rzm3Wd94J3E'}}"
+    "posted": false
   },
   {
     "id": "vv-us-r23",
@@ -1866,8 +1849,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r23.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-01T22:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'ApjyeDQx7MFcs2LelZEpguU'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A8jimiKd3UmDd5wGZKUXays'}}"
+    "scheduled_at": "2026-10-13T22:00:00Z"
   },
   {
     "id": "vv-us-t4",
@@ -1881,8 +1863,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-t4.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-02T16:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AiDEyrK3TzVehlRePeAmru_'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'ALzKGYO0-oMm1rU6n8YABfw'}}"
+    "scheduled_at": "2026-10-14T16:00:00Z"
   },
   {
     "id": "vv-us-r24",
@@ -1896,8 +1877,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r24.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-02T22:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'ABCICTrBQfzxO1tZrZa68F9'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'Agw_8mIZBaRMI9p8i5IKghK'}}"
+    "scheduled_at": "2026-10-14T22:00:00Z"
   },
   {
     "id": "vv-us-r25",
@@ -1911,8 +1891,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r25.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-03T16:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'AxsMR_LCFYbVemnIHr1jgBz'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'A18LjLsrVifvVwIUhqGT90v'}}"
+    "scheduled_at": "2026-10-15T16:00:00Z"
   },
   {
     "id": "vv-us-t5",
@@ -1926,8 +1905,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-t5.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-03T22:00:00Z",
-    "last_error": "instagram: IG Reels container failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'ABQOSgELPsfTqbehYpwFcYy'}}; facebook: FB video post failed: {'error': {'message': 'Error validating access token: The session has been invalidated because the user changed their password or Facebook has changed the session for security reasons.', 'type': 'OAuthException', 'code': 190, 'error_subcode': 460, 'fbtrace_id': 'Ak44_tcapo3j_PaJOTMJiRR'}}"
+    "scheduled_at": "2026-10-15T22:00:00Z"
   },
   {
     "id": "vv-us-r26",
@@ -1941,7 +1919,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r26.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-04T16:00:00Z"
+    "scheduled_at": "2026-10-16T16:00:00Z"
   },
   {
     "id": "vv-us-r27",
@@ -1955,7 +1933,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r27.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-04T22:00:00Z"
+    "scheduled_at": "2026-10-16T22:00:00Z"
   },
   {
     "id": "vv-us-t6",
@@ -1969,7 +1947,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-t6.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-05T16:00:00Z"
+    "scheduled_at": "2026-10-17T16:00:00Z"
   },
   {
     "id": "vv-us-r28",
@@ -1983,7 +1961,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r28.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-05T22:00:00Z"
+    "scheduled_at": "2026-10-17T22:00:00Z"
   },
   {
     "id": "vv-us-r29",
@@ -1997,7 +1975,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r29.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-06T16:00:00Z"
+    "scheduled_at": "2026-10-18T16:00:00Z"
   },
   {
     "id": "vv-us-t7",
@@ -2011,7 +1989,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-t7.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-06T22:00:00Z"
+    "scheduled_at": "2026-10-18T22:00:00Z"
   },
   {
     "id": "vv-us-r30",
@@ -2025,7 +2003,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r30.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-07T16:00:00Z"
+    "scheduled_at": "2026-10-19T16:00:00Z"
   },
   {
     "id": "vv-us-r31",
@@ -2039,7 +2017,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r31.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-07T22:00:00Z"
+    "scheduled_at": "2026-10-19T22:00:00Z"
   },
   {
     "id": "vv-us-t8",
@@ -2053,7 +2031,7 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-t8.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-08T16:00:00Z"
+    "scheduled_at": "2026-10-20T16:00:00Z"
   },
   {
     "id": "vv-us-r32",
@@ -2067,6 +2045,6 @@
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r32.mp4"
     ],
     "posted": false,
-    "scheduled_at": "2026-10-08T22:00:00Z"
+    "scheduled_at": "2026-10-20T22:00:00Z"
   }
 ]
