@@ -2,10 +2,10 @@ name: Auto-reply to Instagram comments
 
 on:
   schedule:
-    # Every 30 minutes -- checks the last 10 posts for new comments and
+    # Every 3 hours -- checks the last 10 posts for new comments and
     # replies to any not already answered. Only ever replies under our own
     # posts, never on other accounts.
-    - cron: "*/30 * * * *"
+    - cron: "0 */3 * * *"
   workflow_dispatch: {} # lets you trigger a run manually from the Actions tab
 
 permissions:
