@@ -1610,8 +1610,11 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r09.mp4"
     ],
-    "posted": false,
-    "scheduled_at": "2026-10-05T16:00:00Z"
+    "posted": true,
+    "scheduled_at": "2026-10-05T16:00:00Z",
+    "instagram_id": "18092723567188887",
+    "facebook_id": "1860074918702955",
+    "posted_at": "2026-10-05T22:29:39.360938+00:00"
   },
   {
     "id": "adshoot-post20",
@@ -1625,7 +1628,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post20.mp4"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18337711309258664",
+    "facebook_id": "1407426068174744",
+    "posted_at": "2026-10-05T22:30:53.824468+00:00"
   },
   {
     "id": "vv-us-r19",
