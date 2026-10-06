@@ -2055,5 +2055,89 @@
     ],
     "posted": false,
     "scheduled_at": "2026-10-20T22:00:00Z"
+  },
+  {
+    "id": "vv-biz-01",
+    "scheduled_at": "2026-10-07T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Websites from R1,500 (about $85) for small businesses anywhere in the world. We're based in Johannesburg. We build your sample page first, and you only pay if you love it.\n\nWhatsApp 067 140 3303 or visualversatility.co.za\n\n#WebDesign #SmallBusiness #Johannesburg #Soweto #WebsiteDesign #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-biz-01.jpg"
+    ],
+    "posted": false,
+    "last_error": null
+  },
+  {
+    "id": "vv-biz-02",
+    "scheduled_at": "2026-10-09T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "See your website before you pay. Send us your logo and prices on WhatsApp and we'll build your sample page first. Love it? We go ahead. Not sure? You owe us nothing.\n\nWhatsApp 067 140 3303 or visualversatility.co.za\n\n#WebDesign #SmallBusiness #Johannesburg #Soweto #WebsiteDesign #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-biz-02.jpg"
+    ],
+    "posted": false,
+    "last_error": null
+  },
+  {
+    "id": "vv-biz-03",
+    "scheduled_at": "2026-10-12T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "A real logo from R450 (about $25), made by real people you can message on WhatsApp. Logo Plus is R950 (about $55) and adds colour and black versions, social images and a business card.\n\nWhatsApp 067 140 3303 or visualversatility.co.za\n\n#LogoDesign #Branding #SmallBusiness #Johannesburg #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-biz-03.jpg"
+    ],
+    "posted": false,
+    "last_error": null
+  },
+  {
+    "id": "vv-biz-04",
+    "scheduled_at": "2026-10-14T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Prefer to pay monthly? R500 to start, then R150 a month for 12 months (about $28 to start, then $8 a month). Your first year of domain, hosting and email is included.\n\nWhatsApp 067 140 3303 or visualversatility.co.za\n\n#WebDesign #SmallBusiness #Johannesburg #Soweto #WebsiteDesign #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-biz-04.jpg"
+    ],
+    "posted": false,
+    "last_error": null
+  },
+  {
+    "id": "vv-biz-05",
+    "scheduled_at": "2026-10-16T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Know a business that needs a website? Tell them about us. When they become a client and pay their deposit, we say thank you with R150 (about $8). Ask them to mention your name.\n\nWhatsApp 067 140 3303 or visualversatility.co.za\n\n#WebDesign #SmallBusiness #Johannesburg #Soweto #WebsiteDesign #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-biz-05.jpg"
+    ],
+    "posted": false,
+    "last_error": null
+  },
+  {
+    "id": "vv-biz-06",
+    "scheduled_at": "2026-10-19T13:00:00Z",
+    "platforms": [
+      "instagram",
+      "facebook"
+    ],
+    "caption": "Car wash? Salon? Gym? We build for you. Clear prices, real photos and a WhatsApp button that brings customers to you. (Demo websites for invented businesses.)\n\nWhatsApp 067 140 3303 or visualversatility.co.za\n\n#WebDesign #SmallBusiness #Johannesburg #Soweto #WebsiteDesign #VisualVersatility",
+    "images": [
+      "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-biz-06.jpg"
+    ],
+    "posted": false,
+    "last_error": null
   }
 ]
