@@ -1662,7 +1662,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post21.mp4"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "18103603958018058",
+    "facebook_id": "2342184329521079",
+    "posted_at": "2026-10-06T23:01:14.575934+00:00"
   },
   {
     "id": "vv-us-r10",
@@ -2067,8 +2070,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-biz-01.jpg"
     ],
-    "posted": false,
-    "last_error": null
+    "posted": true,
+    "instagram_id": "18096889130396520",
+    "facebook_id": "122741580931419_122263138022088441",
+    "posted_at": "2026-10-06T23:01:24.505020+00:00"
   },
   {
     "id": "vv-biz-02",
