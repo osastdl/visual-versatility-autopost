@@ -1746,8 +1746,11 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r21.mp4"
     ],
-    "posted": false,
-    "scheduled_at": "2026-10-09T16:00:00Z"
+    "posted": true,
+    "scheduled_at": "2026-10-09T16:00:00Z",
+    "instagram_id": "18118941847949922",
+    "facebook_id": "2928830244177940",
+    "posted_at": "2026-10-09T20:45:11.793000+00:00"
   },
   {
     "id": "adshoot-post24",
@@ -2098,8 +2101,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-biz-02.jpg"
     ],
-    "posted": false,
-    "last_error": null
+    "posted": true,
+    "instagram_id": "18095352290552978",
+    "facebook_id": "122741580931419_122263499030088441",
+    "posted_at": "2026-10-09T20:45:29.518059+00:00"
   },
   {
     "id": "vv-biz-03",
