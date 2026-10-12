@@ -1849,7 +1849,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post28.mp4"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "17967396435193940",
+    "facebook_id": "1765228791446634",
+    "posted_at": "2026-10-12T22:52:19.798788+00:00"
   },
   {
     "id": "adshoot-post29",
@@ -1863,7 +1866,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-adshoot-post29.mp4"
     ],
-    "posted": false
+    "posted": true,
+    "instagram_id": "17911353339556114",
+    "facebook_id": "1164887235868558",
+    "posted_at": "2026-10-12T22:53:05.787288+00:00"
   },
   {
     "id": "adshoot-post30",
@@ -2132,8 +2138,10 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-biz-03.jpg"
     ],
-    "posted": false,
-    "last_error": null
+    "posted": true,
+    "instagram_id": "18061628795627633",
+    "facebook_id": "122741580931419_122263984952088441",
+    "posted_at": "2026-10-12T22:53:20.867691+00:00"
   },
   {
     "id": "vv-biz-04",
