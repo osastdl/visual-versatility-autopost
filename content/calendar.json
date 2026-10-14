@@ -1899,8 +1899,11 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r23.mp4"
     ],
-    "posted": false,
-    "scheduled_at": "2026-10-13T22:00:00Z"
+    "posted": true,
+    "scheduled_at": "2026-10-13T22:00:00Z",
+    "instagram_id": "18115558139016746",
+    "facebook_id": "1570317214865871",
+    "posted_at": "2026-10-14T01:11:51.741766+00:00"
   },
   {
     "id": "vv-us-t4",
