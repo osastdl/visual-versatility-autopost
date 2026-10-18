@@ -2018,10 +2018,11 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-t6.mp4"
     ],
-    "posted": false,
+    "posted": true,
     "scheduled_at": "2026-10-17T16:00:00Z",
     "facebook_id": "1473969957939400",
-    "last_error": "instagram: IG Reels processing failed for 18125682154785292"
+    "instagram_id": "18041048669838425",
+    "posted_at": "2026-10-18T00:00:50.865559+00:00"
   },
   {
     "id": "vv-us-r28",
@@ -2034,8 +2035,11 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r28.mp4"
     ],
-    "posted": false,
-    "scheduled_at": "2026-10-17T22:00:00Z"
+    "posted": true,
+    "scheduled_at": "2026-10-17T22:00:00Z",
+    "instagram_id": "18109172759335807",
+    "facebook_id": "1667760834713188",
+    "posted_at": "2026-10-18T00:01:34.314800+00:00"
   },
   {
     "id": "vv-us-r29",
