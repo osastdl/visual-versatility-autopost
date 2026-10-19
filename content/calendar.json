@@ -2086,8 +2086,11 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-us-r30.mp4"
     ],
-    "posted": false,
-    "scheduled_at": "2026-10-19T16:00:00Z"
+    "posted": true,
+    "scheduled_at": "2026-10-19T16:00:00Z",
+    "instagram_id": "18220353298352637",
+    "facebook_id": "1141394348220296",
+    "posted_at": "2026-10-19T20:58:55.182085+00:00"
   },
   {
     "id": "vv-us-r31",
@@ -2222,7 +2225,9 @@
     "images": [
       "https://raw.githubusercontent.com/osastdl/visual-versatility-post-images/main/vv-biz-06.jpg"
     ],
-    "posted": false,
-    "last_error": null
+    "posted": true,
+    "instagram_id": "18132674062749110",
+    "facebook_id": "122741580931419_122264864366088441",
+    "posted_at": "2026-10-19T20:59:11.397487+00:00"
   }
 ]
